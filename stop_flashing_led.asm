@@ -11,7 +11,9 @@ P1DS
 P1SEL0 .word 0x40004C0A ; Port 1 Select 0 P1SEL1 .word 0x40004C0C ; Port 1 Select 1
 .word 0x40004C00 ; Port 1 Input
 .word 0x40004C02 ; Port 1 Output
-.word 0x40004C04 ; Port 1 Direction .word 0x40004C06 ; Port 1 Resistor Enable .word 0x40004C08 ; Port 1 Drive Strength
+.word 0x40004C04 ; Port 1 Direction 
+.word 0x40004C06 ; Port 1 Resistor Enable 
+.word 0x40004C08 ; Port 1 Drive Strength
 .global asm_main .thumbfunc asm_main
 asm_main: .asmfunc ; Main BL GPIO_Init LDR R1, P1OUT
 ; R0 = Red LED
