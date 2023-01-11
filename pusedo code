@@ -1,0 +1,14 @@
+pusedo code 
+
+First need to create a main.c
+Link to asm_main
+Create asm_main in assembly to run loop and P1in and Out
+Create loop code so we can compare if switches are pushed or not
+Create code to turn off the LED
+Create code to turn on the LED
+Configure pins for GPIO
+Make pins output sw1 and sw2
+Enable pull-up and pull resistors for p1.1 and p1.4
+Next create code for GPIO_inputs
+Need code for p1.1 and p1.4
+Code is lastly ran for proof of concept and done.
