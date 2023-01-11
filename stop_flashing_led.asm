@@ -5,12 +5,12 @@
 .text ; Following put in ROM 
 ;Port 1 Registers
 
-P1IN  .word 0x40004C00 ; Port 1 Input
-P1OUT .word 0x40004C02 ; Port 1 Output
+P1IN   .word 0x40004C00 ; Port 1 Input
+P1OUT  .word 0x40004C02 ; Port 1 Output
 
-P1DIR .word 0x40004C04 ; Port 1 Direction 
-P1REN .word 0x40004C06 ; Port 1 Resistor Enable 
-P1DS  .word 0x40004C08 ; Port 1 Drive Strength
+P1DIR  .word 0x40004C04 ; Port 1 Direction 
+P1REN  .word 0x40004C06 ; Port 1 Resistor Enable 
+P1DS   .word 0x40004C08 ; Port 1 Drive Strength
 P1SEL0 .word 0x40004C0A ; Port 1 Select 0 
 P1SEL1 .word 0x40004C0C ; Port 1 Select 1
 
