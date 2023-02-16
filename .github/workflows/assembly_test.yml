@@ -15,4 +15,4 @@ jobs:
     - name: Build C program
       run: gcc -o program program.c
     - name: Run program
-      run: ./prun_assembly.c
+      run: ./run_assembly.c
