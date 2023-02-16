@@ -13,6 +13,6 @@ jobs:
     - name: Install dependencies
       run: sudo apt-get update && sudo apt-get -y install gcc
     - name: Build C program
-      run: gcc -o program program.c
+      run: gcc -o program run_assembly.c
     - name: Run program
-      run: run_assembly.c
+      run: ./program
