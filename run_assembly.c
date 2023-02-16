@@ -1,24 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// Declare the assembly functions
-extern void stop_flashing_led();   // function declaration in C code
-
-asm_main() {
-    // Call the assembly functions
-    stop_flashing_led();   // call the function by its correct name
-    ...
-}
-//extern void led_switch(void);
-//extern void built_in_led(void);
+extern void asm_main();
 
 int main() {
-    // Call the assembly functions
-    stop_flashing_led();
-    //led_switch();
-    //built_in_led();
+    // Call the assembly function
+    asm_main();
     
-    printf("All is good!\n");
-
+    printf("success")
+        
     return 0;
 }
