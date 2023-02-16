@@ -1,7 +1,6 @@
 ; When SW1 is pressed, RED LED turns on
 ; Built-in LED1 connected to P1.0
 ; Negative logic built-in button 1 connected to P1.1
-stop_flashing_led:   ; define function stop_flashing_led
 
 .thumb
 .text ; Following put in ROM 
